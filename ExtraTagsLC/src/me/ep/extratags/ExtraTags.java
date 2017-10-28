@@ -24,7 +24,8 @@ public class ExtraTags extends JavaPlugin{
 		loadTags();
 		
 		if (Bukkit.getPluginManager().getPlugin("Legendchat") == null){
-			getLogger().severe("LegendChat n„o encontrado, desabilitando este plugin!");
+			getLogger().severe("LegendChat n√£o encontrado, desabilitando este plugin!");
+			Bukkit.getPluginManager().DisablePlugin(this);
 		}
 		
 	}
